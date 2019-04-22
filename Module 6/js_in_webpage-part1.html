@@ -1,0 +1,108 @@
+<html>
+<head>
+	<center><h2><font face="verdana">Module 6 - Assignment 5 (part 1)</font></h2></center>
+<script type="text/javascript">
+function strConv() {
+	var s = document.forms['frm1']['strText'].value;
+	document.getElementById("output1").innerHTML = 'Reverse: ' + s.split('').reverse().join('');
+}
+
+function numMultiples() {
+    //Build an array containing Customer records.
+    var num = document.forms['frm2']['num'].value;
+    var myTableDiv = document.getElementById("myDynamicTable");
+
+    var table = document.createElement('TABLE');
+    table.border = '0.5';
+
+    var tableBody = document.createElement('TBODY');
+    table.appendChild(tableBody);
+
+	m = 1
+    for (var i = 0; i < 5; i++) {
+        var tr = document.createElement('TR');
+        tableBody.appendChild(tr);
+
+        for (var j = 0; j < 4; j++) {
+            var td = document.createElement('TD');
+            td.width = '50';
+            td.appendChild(document.createTextNode(num*m));
+            tr.appendChild(td);
+			m = m + 1
+        }
+    }
+	dvTable.innerHTML='';
+    dvTable.appendChild(table);
+}
+</script>
+</head>
+
+<body>
+<font face="verdana">
+	<table align='center' style="background-color:#FFFFE0;" border=0>
+		<tr>
+			<td align='center'><h3>Reverse Text</h3></td>
+		</tr>
+		<tr>
+			<td>
+				<form id="frm1" onsubmit="return false;" autocomplete="off">
+					<table>
+						<tr>
+							<td><label>Enter Text:</label></td>
+							<td><input type="text" name="strText"></td>
+						</tr>
+						<tr>
+							<td></td>
+							<td align='right'>
+								<input type="submit" value="Reverse" onClick="strConv();">
+							</td>
+						</tr>
+					</table>
+				</form>
+			</td>
+		</tr>
+		<tr>
+			<td><p></p></td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<p id="output1"></p>
+			</td>
+		</tr>
+		<tr>
+			<td><p></p></td>
+		</tr>
+		<tr>
+			<td><p></p></td>
+		</tr>
+		<tr>
+			<td><hr></td>
+		</tr>
+		<tr>
+			<td align='center'><h3>Get First 20 Multiples</h3></td>
+		</tr>
+		<tr>
+			<td>
+				<form id="frm2" onsubmit="return false;" autocomplete="off">
+					<table>
+						<tr>
+							<td><label>Enter Number:</label></td>
+							<td><input id="num" type="number" size="4"></td>
+						</tr>
+						<tr>
+							<td></td>
+							<td align='right'>
+								<input type="submit" value="Multiples" onClick="numMultiples();">
+							</td>
+						</tr>
+					</table>
+				</form>
+			</td>
+		</tr>
+		<tr align='center'>
+			<td align='center'><div id="dvTable" align='center'></div></td>
+		</tr>
+	</table>
+</font>
+</body>
+</html>

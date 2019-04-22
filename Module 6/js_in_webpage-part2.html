@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <meta charset="utf-8">      
+        <title>Module 6 - Assignment 5 (part 2)</title>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.7.4/d3.min.js"></script>
+ 
+        <script type="text/javascript" >
+          function showPresidents() {
+            var PData = document.getElementById('PData')
+            var output = "Invalid Name"
+            var PresidentName = document.getElementById('PName').value
+            //value starts from row 1 instead of zero
+            for (var i = 1; i < PData.rows.length; i++) {
+              if( PData.rows[i].cells[0].innerText.toUpperCase() == PresidentName.toUpperCase()) {
+                output = ("President " + PData.rows[i].cells[0].innerText + "'s " + "Height is " + PData.rows[i].cells[1].innerText + " and Weight is " + PData.rows[i].cells[2].innerText )
+              }
+            }
+            alert(output)
+          }
+        </script>
+    </head>
+    <body>
+
+  	<center><h2><font face="verdana">Module 6 - Assignment 5 (part 2)</font></h2></center>
+       
+      <h2>Presidents Height and Weight</h2>
+      
+      <table border=1 id="PData">
+
+      </table>
+     
+      <form>
+        <br>
+        Input Name: <input id="PName" type="text" size=4> <input type="button" value="Check" onclick="showPresidents()">
+        </br>
+      </form>
+ 
+        <script type="text/javascript">
+    
+        d3.csv('https://raw.githubusercontent.com/ERS-SPS/DATA-608/master/Module%206/presidents.csv?token=AJQSUUDXPPSVNX22X7KG53S4YY7ZI', function(error, data) {
+            if (error) {
+              console.log(error);
+            }
+            var header = d3.keys(data[0]);
+            var table = d3.select("table");
+            var headers = table.append("thead").append("tr")
+                            .selectAll('th')
+                            .data(header).enter()
+                            .append('th')
+                            .text( function (d) {
+                                return d
+                            })
+            var rows = table.append('tbody')
+                          .selectAll('tr')
+                          .data(data).enter()
+                          .append('tr')
+                          .selectAll('td')
+                          .data(
+                            function (row) {
+                              return header.map( function (column) {
+                                return {column: column, value: row[column]}
+                              })
+                            }
+                          ).enter()
+                          .append('td')
+                          .text( function (d) {
+                            return d.value
+                          })
+        } );
+        </script>
+    </body>
