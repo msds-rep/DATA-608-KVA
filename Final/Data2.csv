@@ -1,0 +1,115 @@
+REGION,COUNTRY_NAME,Inequality_in_Education,Inequality_in_Income,Inequality_in_Life_Expectancy,Percent_of_GDP
+Africa,Angola,34.30,28.90,33.80,29.50
+Africa,Benin,43.70,30.30,35.00,25.90
+Africa,"Burkina Faso",39.20,24.20,32.00,31.60
+Africa,Burundi,39.50,20.90,38.10,32.80
+Africa,Cameroon,33.00,35.90,33.70,16.60
+Africa,Chad,43.00,28.40,42.40,25.20
+Africa,Comoros,47.60,56.00,28.90,30.20
+Africa,"Cote d'Ivoire",47.40,27.40,34.20,33.80
+Africa,Djibouti,47.00,27.70,30.80,35.00
+Africa,Gabon,23.50,20.40,23.10,18.70
+Africa,Gambia,49.30,31.50,28.50,55.90
+Africa,Ghana,34.90,25.30,26.20,30.60
+Africa,Guinea-Bissau,41.90,37.90,38.40,14.10
+Africa,Kenya,22.90,33.10,22.80,42.60
+Africa,Lesotho,21.90,41.10,28.50,15.50
+Africa,Madagascar,35.00,20.40,21.30,19.00
+Africa,Mali,46.20,15.40,36.80,27.30
+Africa,Mauritius,13.20,18.20,8.90,124.90
+Africa,Mozambique,33.80,28.40,35.60,32.60
+Africa,Namibia,25.00,53.60,20.20,78.90
+Africa,Niger,35.00,16.40,34.90,19.10
+Africa,Nigeria,38.10,28.20,37.40,23.30
+Africa,Rwanda,29.30,36.40,23.80,19.00
+Africa,"Sao Tome and Principe",18.30,14.90,25.90,23.10
+Africa,Senegal,46.50,27.70,21.10,43.90
+Africa,"Sierra Leone",47.30,19.20,39.80,21.90
+Africa,"South Africa",14.30,56.40,20.30,78.70
+Africa,Swaziland,24.10,37.90,26.20,24.10
+Africa,Togo,38.90,25.10,30.50,43.80
+Africa,Uganda,27.90,24.20,32.50,23.20
+Africa,Zambia,21.70,48.60,28.80,21.80
+America,Argentina,6.20,25.80,9.50,39.20
+America,Belize,15.90,37.90,10.10,71.90
+America,Bolivia,20.00,31.80,25.20,68.30
+America,Brazil,22.00,36.70,10.80,111.30
+America,Chile,7.50,31.10,6.10,128.00
+America,"Costa Rica",11.90,32.40,7.50,82.80
+America,"Dominican Republic",19.10,28.10,15.40,57.80
+America,Ecuador,13.80,30.50,13.90,38.10
+America,"El Salvador",30.30,23.20,12.20,89.30
+America,Guatemala,35.00,32.20,16.00,40.50
+America,Guyana,10.70,25.10,19.50,60.20
+America,Honduras,22.70,34.90,18.10,58.40
+America,Mexico,17.10,32.80,12.30,55.20
+America,Nicaragua,25.70,29.20,12.90,51.40
+America,Panama,12.50,36.50,11.50,83.30
+America,Paraguay,16.70,39.50,18.00,44.00
+America,"Saint Lucia",12.60,27.40,9.00,74.00
+America,Suriname,15.60,37.30,12.40,48.20
+America,Uruguay,7.40,25.30,9.00,35.30
+Arab,Afghanistan,45.40,10.80,28.40,-2.40
+Arab,Algeria,33.70,11.40,15.10,66.80
+Arab,Azerbaijan,3.80,8.90,17.00,29.50
+Arab,Egypt,36.90,36.30,11.60,99.00
+Arab,Pakistan,46.20,11.60,31.00,53.90
+Arab,Tunisia,34.60,18.90,10.70,96.90
+Arab,Turkey,13.50,22.60,9.60,77.90
+Asia,Australia,2.60,17.70,3.60,177.10
+Asia,Bangladesh,37.30,15.70,17.30,63.70
+Asia,Cambodia,27.30,14.30,16.00,74.40
+Asia,China,11.50,23.30,7.90,215.20
+Asia,Indonesia,16.50,24.90,14.80,47.00
+Asia,Kazakhstan,3.20,10.30,10.10,41.90
+Asia,Kyrgyzstan,5.00,12.20,12.10,20.50
+Asia,Maldives,40.00,20.50,5.70,68.50
+Asia,Mongolia,11.90,15.70,13.40,65.30
+Asia,Myanmar,26.90,5.80,24.00,41.10
+Asia,Nepal,40.90,16.30,16.60,87.10
+Asia,Philippines,11.60,26.80,14.40,66.30
+Asia,Singapore,8.20,25.00,2.60,140.80
+Asia,"South Korea",18.50,20.20,14.80,170.10
+Asia,Tajikistan,6.50,13.50,20.10,15.80
+Asia,Thailand,13.30,23.80,9.30,164.70
+Asia,Timor-Leste,44.90,13.60,20.60,-7.20
+Asia,Vanuatu,17.50,19.70,14.10,58.00
+Asia,VietNam,17.60,21.40,12.70,141.80
+Europe,Albania,8.50,12.20,9.20,63.30
+Europe,Armenia,2.90,17.40,9.00,58.20
+Europe,Austria,2.60,17.70,3.00,126.70
+Europe,Belarus,3.70,10.80,4.90,41.90
+Europe,Belgium,8.70,13.70,3.60,135.70
+Europe,"Bosnia and Herzegovina",19.80,20.20,5.90,56.80
+Europe,Bulgaria,6.50,23.60,6.70,55.30
+Europe,Croatia,5.00,17.30,4.10,77.00
+Europe,Cyprus,11.70,18.70,3.60,241.30
+Europe,"Czech Republic",1.60,10.80,3.30,62.10
+Europe,Denmark,4.30,14.40,3.40,200.70
+Europe,Estonia,2.30,18.90,4.30,4.80
+Europe,Finland,1.90,11.70,2.80,120.80
+Europe,France,8.60,18.10,3.60,157.70
+Europe,Georgia,2.20,25.70,8.10,61.50
+Europe,Germany,2.70,17.70,3.00,127.30
+Europe,Greece,13.10,22.80,3.50,116.70
+Europe,Hungary,3.20,15.20,4.70,58.40
+Europe,Iceland,2.60,12.80,2.40,100.20
+Europe,Ireland,2.90,20.10,2.80,84.20
+Europe,Italy,10.50,22.50,2.90,166.20
+Europe,Latvia,3.70,20.70,5.90,76.30
+Europe,Lithuania,4.50,23.90,5.40,13.40
+Europe,Luxembourg,9.40,17.70,3.40,193.50
+Europe,Macedonia,10.50,20.30,6.50,59.80
+Europe,Malta,6.90,13.70,4.00,117.30
+Europe,Moldova,7.30,14.00,9.60,24.30
+Europe,Netherlands,5.30,15.00,3.00,191.90
+Europe,Poland,4.70,17.10,4.70,73.70
+Europe,Portugal,16.30,20.50,2.90,154.10
+Europe,Romania,6.30,21.00,6.80,32.90
+Europe,Serbia,8.10,28.70,7.10,54.20
+Europe,Slovakia,1.40,13.40,5.20,79.20
+Europe,Slovenia,2.20,11.40,3.00,68.10
+Europe,Spain,18.60,23.30,3.00,178.60
+Europe,Sweden,3.70,15.30,2.70,165.10
+Europe,Ukraine,3.60,8.50,7.50,58.70
+Europe,"United Kingdom",3.70,19.50,4.00,167.50
